@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css");
+
+@import "./tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: var(--background-root);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-default);
+    color: var(--foreground-default);
+}
+
+a {
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--accent-primary-stronger);
+    scrollbar-color: var(--background-highest) var(--background-default);
+}
+
+::-webkit-scrollbar {
+    background-color: var(--background-default);
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--background-default);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--background-highest);
+}
