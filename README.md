@@ -2,6 +2,8 @@
 
 Bring RUI values to Tailwind
 
+[![Try with Replit Badge](https://replit.com/badge?caption=Try%20with%20Replit)](https://replit.com/github/replit-community/tailwind-config)
+
 ## Usage
 
 Follow the [installation process](https://tailwindcss.com/docs/guides/vite) to add Tailwind to your project.
